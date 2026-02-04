@@ -8,11 +8,9 @@ public class Program {
 
 	public static void main(String[] args) {
 		
-		/*
-		 * Fazer um programa para ler as medidas dos lados de dois triângulos X e Y (suponha medidas
-		 * válidas). Em seguida, mostrar o valor das áreas dos dois triângulos e dizer qual dos dois triângulos
-		 * possui a maior área.
-		 */
+		/* Fazer um programa para ler as medidas dos lados de dois triângulos X e Y (suponha medidas
+		   válidas). Em seguida, mostrar o valor das áreas dos dois triângulos e dizer qual dos dois triângulos
+		   possui a maior área. */
 		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);

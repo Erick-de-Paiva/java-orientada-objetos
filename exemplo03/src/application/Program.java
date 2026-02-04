@@ -15,21 +15,15 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		double areaX, perimetroX, diagonalX;
-		Rectangle x;
-		x = new Rectangle();
+		Rectangle x = new Rectangle();
 		
 		System.out.println("Insira a largura e a altura do retângulo:");
 		x.largura = sc.nextDouble();
 		x.altura = sc.nextDouble();
 		
-		areaX = x.area();
-		perimetroX = x.perimetro();
-		diagonalX = x.diagonal();
-		
-		System.out.printf("AREA = %.2f%n", areaX);
-		System.out.printf("PERIMETRO = %.2f%n", perimetroX);
-		System.out.printf("DIAGONAL = %.2f%n", diagonalX);
+		System.out.printf("AREA = %.2f%n", x.area());
+		System.out.printf("PERIMETRO = %.2f%n", x.perimetro());
+		System.out.printf("DIAGONAL = %.2f%n", x.diagonal());
 		
 		sc.close();
 		
